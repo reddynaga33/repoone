@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>TestNG:  Test2</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test2</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Oct 29 09:43:16 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>8 seconds (8560 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.abb.dias.api.automation.test.kshtest.SuiteApiServiceExecutionTest.runtest()'><b>runtest</b><br>Test class: com.abb.dias.api.automation.test.kshtest.SuiteApiServiceExecutionTest<br>Parameters: ph<br/>
+<a href="#Output-1557534595" onClick='toggleBox("Output-1557534595", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1557534595" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1557534595">
+kSH Api services Execution has started<br/>
+The S.No of test case about to execute :454 &  Testcase id is: 7869 &  Number of repetition 1<br/>
+Parameterized Json Request Body is :: <br/>
+The API URL is: https://test2.genix.abb.com/ph/api/role/<br/>
+The Token Response time is:766 Milli seconds<br/>
+The Response status code for Token generation API is:200<br/>
+The respone time is : 1627 Milli seconds<br/>
+The response status code for post request is :200<br/>
+The S.No of test case executed is :454 &  Testcase id is: 7869 &  Number of repetition 1<br/>
+Get Roles Respone code is  :200 VS Expected Response code is :200<br/>
+Collected API Response into text files <br/>
+The S.No of test case about to execute :113 &  Testcase id is: 122 &  Number of repetition 1<br/>
+Parameterized Json Request Body is :: <br/>
+The API URL is: https://test2.genix.abb.com/ph/api/app<br/>
+The Token Response time is:1385 Milli seconds<br/>
+The Response status code for Token generation API is:200<br/>
+The respone time is : 3035 Milli seconds<br/>
+The response status code for post request is :200<br/>
+The S.No of test case executed is :113 &  Testcase id is: 122 &  Number of repetition 1<br/>
+getapp Respone code is  :200 VS Expected Response code is :200<br/>
+Collected API Response into text files <br/>
+</div>
+</td>
+<td></td>
+<td>8</td>
+<td>com.abb.dias.api.automation.test.kshtest.SuiteApiServiceExecutionTest@5dda768f</td></tr>
+</table><p>
+</body>
+</html>
